@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Contact </title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+             <header id="main-header">
+             <div class="container">
+            <h1> My Website</h1> 
+            </div>
+        </header>
+       
+    <nav id="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href=About.html>About</a></li>
+                <li><a href="Service.html">Service</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <div class="container">
+        <section id="main">
+        <form class="my-form" action="process.php" method="POST">
+        <div class="form-group">
+            <label> First Name </label>
+            <input type="text" name="First-Name" placeholder="Enter First Name">
+        </div>
+        <br>
+        <div class="form-group">
+            <label> Last Name</label>
+            <input type="text" name="Last-Name" placeholder="Enter Last Name">
+        </div>
+        <br>
+        <div class="form-group">
+            <label>Message</label>
+            <textarea name="message" placeholder="Type your notes here"></textarea>
+        </div>
+        <br>
+        <div class="form-group">
+            <label> E-mail</label>
+            <input type="text" name="E-mail" placeholder="Enter E-mail">
+        </div>
+        <br>
+            <div class="form-group">
+                <label> Gender </label>
+                <select name="Gender">
+                    <option value="male">Male </option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <br>
+            <div class="form-group">
+                <label> Birthday: </label>
+                <input type="date" name="birthday" value="13-01-2000">
+            </div>
+            <br>
+            <div class="form-group">
+                <label> Age: </label>
+                <input type="data" name="age" value="28">
+            </div>
+            <br>
+        <input class="button" type="submit" name="submit" value="Send" >
+            </form>
+        </section>
+        
+        <aside id="sidebar">
+        <table>
+            <thead>
+                <tr>
+                    <th> Name </th>
+                    <th> Phone number </th>
+                    <th> Position </th>
+                </tr>
+            </thead>
+            <tbody>    
+                <tr>
+                    <td>Jaye K.F </td>
+                    <td>87467399 </td>
+                    <td>Admin </td>
+                </tr>
+                <tr>
+                    <td>Adele K.P </td>
+                    <td>87568484 </td>
+                    <td>Registrar </td>
+                </tr>
+                <tr>
+                    <td>Bayo F.M </td>
+                    <td>12348484 </td>
+                    <td>P.R.O </td>
+                </tr>
+            </tbody>
+            </table>
+        </aside>
+    </div>
+        <br>
+            <footer id="main-footer">
+            <p>copyright &copy; My Website 2020 </p>
+        </footer>
+        <script src="project2.js"></script>
+    </body>
+</html>
